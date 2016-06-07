@@ -66,14 +66,15 @@ class Functions_Practice < MiniTest::Test
     assert_equal( "Sep", ninth_month_string )
   end
 
-  # #Further
+  #Further
 
-  # #Given the length of a side of a cube calculate the volume 
-  # def test_volume_of_cube()
+  #Given the length of a side of a cube calculate the volume 
+  def test_volume_of_cube()
+    calculate_cube_volume = volume_of_cube(3, 3, 3)
+    assert_equal(27, calculate_cube_volume)
+  end
 
-  # end
-
-  # #Given the radius of a sphere calculate the volume
+  #Given the radius of a sphere calculate the volume
   # def test_volume_of_sphere()
 
   # end
