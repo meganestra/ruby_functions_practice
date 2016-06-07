@@ -14,4 +14,7 @@ def multiply(x, y)
   return x * y
 end
 
+def divide(x, y)
+  x / y
+end
 
