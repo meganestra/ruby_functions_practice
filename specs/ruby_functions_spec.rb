@@ -75,8 +75,9 @@ class Functions_Practice < MiniTest::Test
   end
 
   #Given the radius of a sphere calculate the volume
-  # def test_volume_of_sphere()
-
-  # end
+  def test_volume_of_sphere()
+    calculate_sphere_volume = volume_of_sphere(1)
+    assert_equal(4.19, calculate_sphere_volume)
+  end
 
 end
