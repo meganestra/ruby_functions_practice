@@ -18,3 +18,6 @@ def divide(x, y)
   x / y
 end
 
+def length_of_string(string)
+  return string.length
+end
