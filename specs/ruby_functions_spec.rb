@@ -70,7 +70,7 @@ class Functions_Practice < MiniTest::Test
 
   #Given the length of a side of a cube calculate the volume 
   def test_volume_of_cube()
-    calculate_cube_volume = volume_of_cube(3, 3, 3)
+    calculate_cube_volume = volume_of_cube(3)
     assert_equal(27, calculate_cube_volume)
   end
 
